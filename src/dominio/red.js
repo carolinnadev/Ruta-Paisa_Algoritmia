@@ -1,4 +1,4 @@
-const { Grafo } = require('./Grafo');
+const { Grafo } = require('../estructuras/Grafo');
 
 function construirRed() {
     const grafo = new Grafo();
