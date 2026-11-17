@@ -31,8 +31,8 @@ if (args.includes('--mantenimiento')) {
 
 // 2. Planificador de viajes normal por terminal
 if (args.length < 2) {
-    console.log('❌ Uso: node src/dominio/planificador.js <origen> <destino> [--cerradas cod1,cod2]');
-    console.log('       node src/dominio/planificador.js --mantenimiento');
+    console.log('❌ Uso: node src/dominio/Planificador.js <origen> <destino> [--cerradas cod1,cod2]');
+    console.log('       node src/dominio/Planificador.js --mantenimiento');
     process.exit(1);
 }
 
